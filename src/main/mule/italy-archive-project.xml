@@ -11,5 +11,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 		<http:listener doc:name="Listener" doc:id="5925c57c-f249-44cb-90c4-f81766f02229" config-ref="HTTP_Listener_config" path="/demo"/>
 		<logger level="INFO" doc:name="Logger" doc:id="23928f1b-d6b1-4f88-ad30-4cbf9594a252" message='"Github account created successfully"'/>
 		<logger level="INFO" doc:name="Logger" doc:id="433d36e6-9bf0-45a3-8c8d-300bb53971dd" message='"completed"'/>
+		<logger level="INFO" doc:name="Logger" doc:id="50604e8a-60e2-4764-ab5c-00cbf7f27ca4" message='"Added one more logger"'/>
 	</flow>
 </mule>
